@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  width: 100%;
+}
+header img {
+  width: 100%;
+}
+header h1 {
+  justify-content: center;
+  align-items: center;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  text-align: center;
+  line-height: 69px;
+  letter-spacing: 8.75px;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  margin-top: 12.1875rem;
+}
+header nav img {
+  position: absolute;
+  top: 0.75rem;
+  left: 0;
+  margin-left: 2.5rem;
+  margin-top: 2.875rem;
+  width: 10.625rem;
+  height: 2.0625rem;
+}
+header ul {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  gap: 0.9375rem;
+  top: 0;
+  right: 0;
+  margin-top: 3.125rem;
+  margin-right: 4.875rem;
+}
+
+.lifont {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5625rem;
+  letter-spacing: -0.008rem;
+}
+
+.lifont2 {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+  letter-spacing: -0.0067rem;
+  text-transform: uppercase;
+}
+
+div h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 5.333vw;
+  line-height: 6.533vw;
+  letter-spacing: -0.038vw;
+}
+div h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 1.75rem;
+  line-height: 2.1875rem;
+  text-align: center;
+  letter-spacing: -0.0125rem;
+}
+
+.midimages {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: 50%;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.eggyt {
+  width: 50%;
+  height: 50%;
+  padding: 5%;
+}
+
+.p1 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4vw;
+  line-height: 4vw;
+  letter-spacing: -0.017vw;
+}
+
+.p2 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.6875rem;
+  text-align: center;
+  letter-spacing: -0.0071rem;
+}
+
+.eggy {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */
